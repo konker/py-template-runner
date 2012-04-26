@@ -1,0 +1,6 @@
+template-runner
+==============================================================================
+
+Execute an XXX template specified on the command line and output to stdout
+
+Author: Konrad Markus <konker@gmail.com>
