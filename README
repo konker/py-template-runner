@@ -1,6 +1,24 @@
-template-runner
+py-template-runner
 ==============================================================================
 
-Execute an XXX template specified on the command line and output to stdout
+Execute an Mako template specified on the command line and output to stdout
 
 Author: Konrad Markus <konker@gmail.com>
+License: See LICENSE
+
+Requires Mako templates:
+    http://www.makotemplates.org/
+
+Example usage:
+    $ python template-runner.py example.in/template1.html
+    [PRINTS RENDERED TEMPLATE TO STDOUT]
+
+    $ python template-runner.py example.in/template1.html > example.out/template1.html
+    [REDIRECTS RENDERED TEMPLATE TO A FILE]
+
+
+The example.in and example.out directories can be removed.
+
+The in/ and out/ directories are provided as a suggestion, you can use your own structure/naming.
+
+The contents of the in/ and out/ directories is not tracked by git.
